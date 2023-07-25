@@ -1,0 +1,11 @@
+﻿CREATE FUNCTION fn_GetDay()
+RETURNS INT
+AS
+BEGIN
+RETURN
+	DATEPART(DAY,GETDATE())
+END
+
+
+-- Gọi
+SELECT dbo.fn_GetDay() N'Ngày Hiện Tại'

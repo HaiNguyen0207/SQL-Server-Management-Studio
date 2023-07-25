@@ -1,0 +1,9 @@
+select
+Masv
+from
+SinhVien
+EXCEPT
+select
+masv
+from
+KetQua

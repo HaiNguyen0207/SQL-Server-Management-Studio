@@ -1,0 +1,1 @@
+TRUNCATE TABLE LearnSQL.dbo.T1
